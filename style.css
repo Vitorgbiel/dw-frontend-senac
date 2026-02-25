@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(0, 0, 118);
+}
+
+h1 {
+    color: rgb(255, 1, 179);
+}
+
+h2 {
+    color: rgb(255, 1, 179);
+}
+
+p {
+    background-color: rgb(251, 2, 255);
+    padding: 10px;
+}
