@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FightStore - Equipamentos de Combate</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>FightStore</h1>
+
+<nav>
+<a href="#">Home</a>
+<a href="#produtos">Produtos</a>
+<a href="#sobre">Sobre</a>
+<a href="#contato">Contato</a>
+<button onclick="abrirCarrinho()">🛒 Carrinho (<span id="cartCount">0</span>)</button>
+</nav>
+</header>
+
+<section class="hero">
+<h2 id="p1">Equipamentos Profissionais de Combate</h2>
+<p>Boxe • MMA • Muay Thai • Jiu-Jitsu</p>
+<button>Comprar Agora</button>
+</section>
+
+<section id="produtos">
+
+<h2>Produtos em Destaque</h2>
+
+<div class="products">
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1549719386-74dfcbf7dbed">
+<h3>Luvas de Boxe</h3>
+<p>R$199</p>
+<button onclick="addCart('Luvas de Boxe',199)">Comprar</button>
+</div>
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f">
+<h3>Saco de Pancada</h3>
+<p>R$499</p>
+<button onclick="addCart('Saco de Pancada',499)">Comprar</button>
+</div>
+
+<div class="product">
+background:url("https://lens.usercontent.google.com/image?vsrid=CKGM9Zfg99KO_wEQAhgBIiRmYmEzZjNhMy03M2U5LTQyOWUtODNmOC1hM2U5YzM1YWEzMTYyBiICY2YoAzjfkOeMpoyTAw&gsessionid=fOEesBTDomdCXEc6hadBgKYzNVUBey5c");
+<img src="">
+<h3>Caneleira Muay Thai</h3>
+<p>R$249</p>
+<button onclick="addCart('Caneleira',249)">Comprar</button>
+</div>
+
+<div class="product">
+<img src="https://images.unsplash.com/photo-1617042375876-a13e36732a04">
+<h3>Luva MMA</h3>
+<p>R$179</p>
+<button onclick="addCart('Luva MMA',179)">Comprar</button>
+</div>
+
+</div>
+
+<div>
+</section>
+
+<section id="sobre">
+
+<h2>Sobre nossa loja</h2>
+
+<p>
+Vendemos equipamentos profissionais para esportes de combate
+como boxe, MMA, muay thai e jiu-jitsu.
+Equipamentos resistentes usados por atletas e academias.
+</p>
+</div>
+
+</section>
+
+<section id="contato">
+
+<h2>Contato</h2>
+
+<p>Email: contato@fightstore.com</p>
+<p>WhatsApp: (00) 00000-0000</p>
+
+</section>
+
+<div id="cart" class="cart">
+
+<h2>Carrinho</h2>
+
+<ul id="cartItems"></ul>
+
+<p>Total: R$ <span id="total">0</span></p>
+
+<button onclick="fecharCarrinho()">Fechar</button>
+
+</div>
+
+<footer>
+<p>© 2026 FightStore</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>

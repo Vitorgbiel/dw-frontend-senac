@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     border: 1px solid red;
 }  
@@ -18,3 +19,37 @@ a:hover {
     color: dodgerblue;
     outline: 1px solid dodgerblue;
 }
+=======
+  
+body {
+    
+    color: #af4949;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+
+h1 {
+    color: #1a1616;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+a {
+    color: #a36767;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+>>>>>>> 72ccb8650263568ac97e0a1b4ed67f8b7af2954a
